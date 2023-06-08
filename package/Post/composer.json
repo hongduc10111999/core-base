@@ -1,0 +1,17 @@
+{
+    "name": "ducphong/post",
+    "description": "Package Post",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Duc Phong",
+        "email": "admin@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Corebase\\Post\\": "src/"
+        }
+    }
+}

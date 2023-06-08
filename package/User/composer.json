@@ -1,0 +1,25 @@
+{
+    "name": "corebase/user",
+    "description": "Package user",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Duong Phong",
+        "email": "phong.duong@bnksolution.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Corebase\\User\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [],
+            "providers": [
+                "Corebase\\User\\Providers\\UserServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "corebase/contact",
+    "autoload": {
+        "psr-4": {
+            "Corebase\\Contact\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Phong Dương (TRN.TC.Vinh)",
+            "email": "phong.duong@bnksolution.com"
+        }
+    ],
+    "require": {}
+}

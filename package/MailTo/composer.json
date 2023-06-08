@@ -1,0 +1,25 @@
+{
+    "name": "corebase/mailto",
+    "description": "Package MailTo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Hong Duc",
+        "email": "hongduc10111999@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Corebase\\Option\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [],
+            "providers": [
+                "Corebase\\MailTo\\Providers\\MailToServiceProvider"
+            ]
+        }
+    }
+}
